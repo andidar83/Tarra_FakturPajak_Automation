@@ -28,7 +28,7 @@ endpoint = "api/v1/sign-in"  # Corrected endpoint for sign-in
 # Payload data
 payload = {
     "username": "id-fat-tax@ninjavan.co",
-    "password": "123456",
+    "password": "your_password",
     "rememberMe": "true"
 }
 
@@ -305,7 +305,7 @@ for filename in os.listdir(folder_path):
 # current_date = datetime.now().strftime("%Y-%m-%d")
 
 # # Specify the parent folder ID (replace 'Faktur Pajak Folder ID' with the actual ID)
-# parent_folder_id = '1RISgS417gi1WykmXOB-ZTN3DdwLYXtdB'
+# parent_folder_id = 'your_parent_folder_id'
 
 # # Authenticate with Google Drive API
 # service_account_json_key = 'serv_acc.json'
